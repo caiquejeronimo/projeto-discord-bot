@@ -20,6 +20,12 @@ const {Client, MessageAttachment} = require('discord.js'),
             pokeQuiz(msg, MessageAttachment);
         }
 
+        client.on('message', msg =>{
+            if(msg.content == `${config.prefix}ficha`){
+                ficha(msg, MessageAttachment);
+            }
+        })
+
     })
 
     client.on('message', msg => {
@@ -31,6 +37,9 @@ const {Client, MessageAttachment} = require('discord.js'),
             }
             if(msg.content == 'natal'){
                 msg.reply('pega no meu pau');
+            }
+            if(msg.content == 'quem?'){
+                msg.reply('te perguntou');
             }
 
             if(msg.content == `${config.prefix}avatar`){ //pega o prefixo do config.json e aplica diretamente no conteudo da msg caso haja o prefixo
