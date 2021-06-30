@@ -41,6 +41,10 @@ const {Client, MessageAttachment} = require('discord.js'),
             if(msg.content == 'quem?'){
                 msg.reply('te perguntou');
             }
+            if(msg.content =='amizade'){
+                msg.reply('é um país da Europa!');
+            }
+
 
             if(msg.content == `${config.prefix}avatar`){ //pega o prefixo do config.json e aplica diretamente no conteudo da msg caso haja o prefixo
                 msg.reply(msg.author.displayAvatarURL());
