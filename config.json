@@ -1,6 +1,6 @@
 {
-    "token": "<insira o código token do seu bot do discord aqui",
+    "token":"ODQ5MzI0OTA3NzExOTU0OTg0.YLZhdQ.NtkJ3IJDp9XrVQOu19MNu_SRrHE",
     "prefix": "!",
-    "endpoint": "https://pokeapi.co/api/v2/pokemon/",
-    "maxPokemon": "151"
+    "endpoint":"https://pokeapi.co/api/v2/pokemon/",
+    "maxPokemon":"151"
 }
